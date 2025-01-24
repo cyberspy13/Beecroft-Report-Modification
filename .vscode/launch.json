@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // "type": "al",
+            // "request": "launch",
+            // "name": "Sandbox",
+            // "environmentType": "Sandbox",
+            // "environmentName": "Sandbox",
+            // "tenant": "aa8e343a-ddae-4d70-ba8e-1c40a091bd65",
+            // "startupObjectId": 1801,
+            // "startupObjectType": "Page",
+            // "breakOnError": true,
+            // "schemaUpdateMode":"ForceSync"
+            "name": "My Server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://d365-bc-24/",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode":"ForceSync",
+            "debugServer": 4711
+        }
+    ]
+}
